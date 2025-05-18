@@ -132,6 +132,7 @@ data:
   title: Your Garage Door Friend
   target: xxxxxxxxxx@c.us #Can be contact or group chat id
   data:
+    ascaption: true #optional, attaches the title and message as caption to the first image othwise text is independent
     media_url: |
       https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example
       https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example
