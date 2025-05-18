@@ -128,7 +128,7 @@ Multiple media files are now supported. Use the multiline feature as shown below
 ```yaml
 service: notify.wapi_whatsapp_notifire
 data:
-  message: The garage door has been open for 10 minutes.
+  message: The garage door has been open for 10 minutes. #messages can't be empty but if you want to send images only just put a space " " as message
   title: Your Garage Door Friend
   target: xxxxxxxxxx@c.us #Can be contact or group chat id
   data:
